@@ -15,6 +15,7 @@ public class Refrigerator {
     //- No of Compressors
     //- Warranty
     //- Freezer Features
+    //- Price
 
     //Behaviour (e-commerce)
     //- Add to cart
@@ -22,8 +23,5 @@ public class Refrigerator {
     //- Share
     //- Like
     //- Provide Review
-    //- Return Policy
-    //- Add a protection Plan
-    //- Add an address
 
 }

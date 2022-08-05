@@ -9,6 +9,7 @@ public class Statue {
     //- Mounting Type
     //- Product Dimension
     //- Color
+    //- Price
 
     //Behaviour
     //- Add to cart
@@ -16,6 +17,6 @@ public class Statue {
     //- Share
     //- Like
     //- Provide Review
-    //- Return Policy
+
 
 }
