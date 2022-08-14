@@ -3,7 +3,7 @@ package day2;
 public class BankAccount {
     //  States
     // Get but not set
-    private String accountNumber ="1234597";
+    private String accountNumber = "1234597";
     // Get and Set both allowed
     private String accountHolderName;
     // Get and Set both allowed
@@ -77,12 +77,20 @@ public class BankAccount {
         this.socialSecurityNumber = socialSecurityNumber;
     }
 
+    public void transferBalance(BankAccount fromAccount, BankAccount toAccount, double balance) {
+        double fromFinalBalance = fromAccount.getAccountBalance() - balance;
+        double toFinalBalance = toAccount.getAccountBalance() + balance;
 
-    // Behaviour
-    //- Open Account
-    //- Close Account
-    //- Deposit
-    //- Withdraw
-    //- Transfer
+        fromAccount.setAccountBalance(fromFinalBalance);
+        toAccount.setAccountBalance(toFinalBalance);
 
+
+        // Behaviour
+        //- Open Account
+        //- Close Account
+        //- Deposit
+        //- Withdraw
+        //- Transfer
+
+    }
 }
