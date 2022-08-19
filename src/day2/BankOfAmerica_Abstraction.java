@@ -1,10 +1,15 @@
 package day2;
-
+/**
+ * This application is used by Bank of America
+ *
+ * @author Palisha Maharjan
+ * @version 1.0.0
+ */
 public class BankOfAmerica_Abstraction {
     public static void main(String[] args) {
         BankAccount palishaAccount = new BankAccount();
         palishaAccount.setAccountHolderName("Palisha Maharjan");
-        palishaAccount.setAccountType("saving");
+        palishaAccount.setAccountType(AccountType.SAVING);
         palishaAccount.setConnectedMobileNumber("12562469");
         palishaAccount.setAddress("Irving, Texas");
         palishaAccount.setBsbNumber("001");
@@ -13,7 +18,7 @@ public class BankOfAmerica_Abstraction {
 
         BankAccount friendAccount = new BankAccount();
         friendAccount.setAccountHolderName("Palisha Maharjan");
-        friendAccount.setAccountType("saving");
+        friendAccount.setAccountType(AccountType.SAVING);
         friendAccount.setConnectedMobileNumber("12562469");
         friendAccount.setAddress("Irving, Texas");
         friendAccount.setBsbNumber("001");

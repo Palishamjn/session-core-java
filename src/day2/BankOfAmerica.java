@@ -9,7 +9,7 @@ public class BankOfAmerica {
         palishaAccount.setAccountHolderName("Palisha Maharjan");
 
 //        palishaAccount.accountType = "saving";
-        palishaAccount.setAccountType("saving");
+        palishaAccount.setAccountType(AccountType.SAVING);
 
 //        palishaAccount.connectedMobileNumber = "12562469";
         palishaAccount.setConnectedMobileNumber("12562469");
