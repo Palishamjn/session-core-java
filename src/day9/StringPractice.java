@@ -111,5 +111,23 @@ public class StringPractice {
 
         String number = String.valueOf(2);
 
+
+        String fullName = "Palisha Maharjan";
+        String verificationEmailLink = "http://somedomain.com/verify/adsdfa414";
+        String combinedString = "Hello !" + fullName + "Welcome to our website." + "please click on this link to verify your email address" + verificationEmailLink;
+
+        StringBuilder builder = new StringBuilder();
+        builder.append("Hello !");
+        builder.append(fullName);
+        builder.append("Welcome to our website.");
+        builder.append("please click on this link to verify your email address");
+        builder.append(verificationEmailLink);
+
+        String builderCombinedString = builder.toString();
+
+        System.out.println(combinedString);
+        System.out.println(builderCombinedString);
+
+
     }
 }
